@@ -3,30 +3,21 @@
   margin: 0;
   padding: 0;
 }
-.layover{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 10px;
-}
-
 #roma {
-  position: relative;
   background-image: url(../img/roma.jpg);
 }
 
 #new-york {
-  position: relative;
   background-image: url(../img/new-york.jpg);
   }
 
 #siviglia {
-  position: relative;
   background-image: url(../img/siviglia.jpg);
 }
 .city{
   position: relative;
-  width: 100vw;
+  width: calc(100% - 20px);
   height: 100vh;
   background-size: cover;
+  margin: 10px;
 }
